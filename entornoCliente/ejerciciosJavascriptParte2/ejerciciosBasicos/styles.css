@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background: red;
+}
+
+.box_verde{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+
+    background: green;
+}
