@@ -1,0 +1,129 @@
+
+body{
+    margin:0;
+    font-family:"woff";
+}
+
+.imagen{
+ 
+    height: 700px;
+    overflow: hidden;
+    background: url(fondo1.jpg);
+}
+.imagen .contenido {
+    display: inline-flex;
+}
+.imagen .contenido .primerTitulo{
+    list-style: none;
+    font-size: 100px;
+    color: #E9AA0E;
+    margin-left: 40px;
+    
+
+}
+
+.imagen .contenido .segundoTitulo{
+    list-style: none;
+    color: #E9AA0E;
+    font-size: 120px;
+    margin-left: 55px;
+
+}
+.imagen .formulario{
+margin-left: 300px;
+margin-top:100px ;
+margin-bottom: 0px;
+}
+.imagen h3{
+    font-size: 28px;
+    color: #F9D475;
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.imagen h5{
+    font-size: 18px;
+    color: #F9D475;
+    padding: 0;
+    margin-left: 20px;
+}
+
+
+.inputs{
+    padding: 20px;
+    margin-right: 40px;
+}
+.inputs input{
+    padding: 10px;
+    width: 100%;
+}
+.enviar input{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    
+        background: #333333;
+}
+
+.campos p{
+    color: #F9D475;
+}
+
+
+.doscolumnas{
+    width: 1024px;
+    margin: auto;
+}
+.doscolumnas .colizq{
+width: 600px;
+
+vertical-align: top;
+}
+.doscolumnas .coldrcha{
+width: 400px;
+padding-left: 100px;
+box-sizing: border-box;
+vertical-align: top;
+}
+
+.doscolumnas .coldrcha ul{
+    padding: 0;
+    }
+.doscolumnas .coldrcha a{
+    color:#333333;
+    }
+.doscolumnas .coldrcha a:hover{
+text-decoration: none;
+}
+.doscolumnas .coldrcha li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.trescolumnas a{
+    color:white
+}
+.col{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer{
+    background: #666154;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
