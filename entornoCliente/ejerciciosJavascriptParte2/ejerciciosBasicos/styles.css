@@ -12,3 +12,23 @@
 
     background: green;
 }
+
+.galeria{
+    width: 120px;
+    height: auto;
+    
+}
+.item_galeria{
+    display: inline-flex;
+    border: black 1px solid;
+    width: 35px;
+    float: left;
+    
+}
+.item_galeria1{
+    display: inline-flex;
+    border: black 1px solid;
+    width: 35px;
+    float: left;
+    background: red;
+}
