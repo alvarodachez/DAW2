@@ -1,0 +1,33 @@
+.tablero{
+    width: 1000px;
+    height: 500px;
+    border: black 2px solid;
+    display: inline-flex;
+}
+
+.jugador{
+    width: 500px;
+    display: inline-flex;
+}
+
+.banca{
+    width: 500px;
+}
+
+.mazo img{
+    width: 250px;
+    height: 300px;
+}
+.mazoBanca img{
+    width: 250px;
+    height: 300px;
+}
+
+.mano img{
+    width: 250px;
+    height: 300px;
+}
+.manoBanca img{
+    width: 250px;
+    height: 300px;
+}
