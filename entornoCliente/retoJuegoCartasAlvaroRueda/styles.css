@@ -1,33 +1,73 @@
 .tablero{
-    width: 1000px;
-    height: 500px;
-    border: black 2px solid;
-    display: inline-flex;
+    width: 1010px;
+    height: 480px;
 }
 
 .jugador{
+    border: thin groove brown;
     width: 500px;
-    display: inline-flex;
+    height: 440px;
+    float: left;
+}
+
+.elegirCarta{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mano{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+.almacenJugador{
+    height: 120px;
+    margin-left: 30px;
+}
+
+.almacenJugador img{
+    height: 100px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .banca{
+    border: thin groove brown;
     width: 500px;
+    height: 440px;
+    float: left;
 }
 
-.mazo img{
-    width: 250px;
-    height: 300px;
-}
-.mazoBanca img{
-    width: 250px;
-    height: 300px;
+.elegirCartaBanca{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.mano img{
-    width: 250px;
-    height: 300px;
+.manoBanca{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    visibility: hidden;
 }
-.manoBanca img{
-    width: 250px;
-    height: 300px;
+
+.almacenBanca{
+    height: 120px;
+    margin-left: 30px;
 }
+
+.almacenBanca img{
+    height: 100px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+

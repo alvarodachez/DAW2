@@ -48,7 +48,7 @@ const entrada2 = document.getElementById("entrada2");
 
 boton.addEventListener("click", ()=>{
     entrada2.addEventListener("keyup",(e)=>{
-        console.log(String.fromCharCode(e.keyCode));
+        console.log(e.key);
     })
 })
 /**
@@ -63,6 +63,6 @@ boton.addEventListener("click", ()=>{
      }else{
          e.target.className = "item_galeria";
      }
-      
+      console.log(e.target.textContent)
  })
 
