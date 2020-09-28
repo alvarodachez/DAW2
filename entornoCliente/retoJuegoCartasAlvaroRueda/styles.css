@@ -1,12 +1,12 @@
 .tablero{
-    width: 1010px;
-    height: 480px;
+    width: 1400px;
+    height: 600px;
 }
 
 .jugador{
     border: thin groove brown;
     width: 500px;
-    height: 440px;
+    height: 550px;
     float: left;
 }
 
@@ -40,7 +40,7 @@
 .banca{
     border: thin groove brown;
     width: 500px;
-    height: 440px;
+    height: 550px;
     float: left;
 }
 
@@ -69,5 +69,58 @@
     width: 70px;
     margin-top: 10px;
     margin-left: 5px;
+}
+
+.interaccion{
+    border: thin groove brown;
+    width: 200px;
+    height: 260px;
+    float: left;
+}
+
+.puntuajeJugador{
+   display: inline-flex;
+    border: brown thin groove;
+    width: 200px;
+    height: 100px;
+}
+
+.puntuajeBanca{
+    display: inline-flex;
+    border: brown thin groove;
+    width: 200px;
+    height: 97px;
+}
+
+
+.puntosJugador{
+    margin-top: 13px;
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+}
+.puntosBanca{
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+
+}
+
+.botones{
+    width: 200px;
+    height: 59px;
+    border: brown thin groove;
+}
+
+.plantar{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.veredicto{
+    width: 120px;
+    margin-left: 33px;
+    margin-top: 2px;
+    border-width: 0px;
 }
 
