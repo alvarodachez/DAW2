@@ -7,6 +7,7 @@ let puntoJugador = 0;
 let puntoBanca = 0;
 let puntoActual = 0;
 let cartaAux;
+let block = false;
 
 for(let i = 1;i<=10;i++){
     cartas[i] = palos;
@@ -18,48 +19,52 @@ for(let i = 1;i<=10;i++){
 
  let sacarCarta = document.getElementById("elegirCarta");
 
+    
  sacarCarta.addEventListener("click",()=>{
-    let numeroCarta = parseInt((Math.random()*10)+1);
-    let palo = parseInt(Math.random()*4);
+
+    if(block == false){
+        let numeroCarta = parseInt((Math.random()*10)+1);
+        let palo = parseInt(Math.random()*4);
     
-    let carta = numeroCarta + cartas[numeroCarta][palo];
+        let carta = numeroCarta + cartas[numeroCarta][palo];
     
-    //console.log(carta);
 
-    while(cartaAux == carta){
+        while(cartaAux == carta){
 
-         numeroCarta = parseInt((Math.random()*10)+1);
-         palo = parseInt(Math.random()*4);
+            numeroCarta = parseInt((Math.random()*10)+1);
+            palo = parseInt(Math.random()*4);
     
-         carta = numeroCarta + cartas[numeroCarta][palo];
+            carta = numeroCarta + cartas[numeroCarta][palo];
+        }
+
+
+        cartaAux = carta;
+
+        mostrarCarta(carta);
+
+        if(numeroCarta <=7){
+            puntoActual = puntoActual + numeroCarta;
+        }else{
+            puntoActual =puntoActual + 0.5; 
+            }   
+
+        puntoJugador =  puntoActual;
+
+
+        document.getElementById("puntosJugador").value = puntoJugador;
+        let cartaAdd = document.createElement("img");
+        cartaAdd.src="img/"+carta+".jpg";
+        document.getElementById("almacenJugador").appendChild(cartaAdd);
+
+        if(puntoJugador > 7.5){
+            bloquear();
+            document.getElementById("veredicto").value = "HAS PERDIDO";
+        }else if(puntoJugador == 7.5){
+            puntoActual = 0;
+            banca();
+        }
     }
-
-
-    cartaAux = carta;
-
-    mostrarCarta(carta);
-
-    if(numeroCarta <=7){
-        puntoActual = puntoActual + numeroCarta;
-    }else{
-        puntoActual =puntoActual + 0.5; 
-    }
-
-    puntoJugador =  puntoActual;
-
-
-    document.getElementById("puntosJugador").value = puntoJugador;
-    let cartaAdd = document.createElement("img");
-    cartaAdd.src="img/"+carta+".jpg";
-    document.getElementById("almacenJugador").appendChild(cartaAdd);
-
-    if(puntoJugador > 7.5){
-        bloquear();
-        document.getElementById("veredicto").value = "HAS PERDIDO";
-    }else if(puntoJugador == 7.5){
-        puntoActual = 0;
-        banca();
-    }
+    
 
  });
 
@@ -151,12 +156,11 @@ const ganar = () =>{
 }
 
 const bloquear = ()=>{
-    sacarCarta.removeEventListener("click",borrarEvento())
+    block = true;
 
-}
+    }
 
-const borrarEvento = ()=>{
-}
+
 
 /**
  * FUNCION REINICIAR
