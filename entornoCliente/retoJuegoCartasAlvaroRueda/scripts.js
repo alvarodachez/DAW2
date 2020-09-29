@@ -9,6 +9,7 @@ let puntoActual = 0;
 let cartaAux;
 let block = false;
 
+//creo un array multidimensional
 for(let i = 1;i<=10;i++){
     cartas[i] = palos;
 }
@@ -23,12 +24,16 @@ for(let i = 1;i<=10;i++){
  sacarCarta.addEventListener("click",()=>{
 
     if(block == false){
+        //saco numero de carta aleatoriamente del 1 al 10
         let numeroCarta = parseInt((Math.random()*10)+1);
+        //saco el palo con numero aleatorio del 1 al 4
         let palo = parseInt(Math.random()*4);
-    
+        
+        //obtengo la carta con su numero y la con la posicion del array multidimensional su palo
         let carta = numeroCarta + cartas[numeroCarta][palo];
     
 
+        //bucle para que nos saque carta repetida guardandolas en variables auxiliares
         while(cartaAux == carta){
 
             numeroCarta = parseInt((Math.random()*10)+1);
@@ -74,6 +79,7 @@ for(let i = 1;i<=10;i++){
 let mePlanto = document.getElementById("plantar");
 
 mePlanto.addEventListener("click",() =>{
+    //lo pongo a 0 para poder usarlo en banca()
     puntoActual = 0;
     bloquear();
     banca();
@@ -116,6 +122,7 @@ const banca = () =>{
     cartaAdd.src="img/"+carta+".jpg";
     document.getElementById("almacenBanca").appendChild(cartaAdd);
 
+    //se repite la funcion banca mientras no pierda nadie y tarda un segundo en hacerlo
     if(puntoActual<=puntoJugador){
         setTimeout("banca()",1000);
     }
