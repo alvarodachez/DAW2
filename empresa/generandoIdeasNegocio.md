@@ -18,7 +18,7 @@
 | :----------------------------: | :------------------------: | :----------------------------: | :--------------------------------------------------: | :---------------: | :-----------------: | :---------------: |
 | Inteligencia Artificial Medica |             10             |               10               |                          7                           |         7         |          5          |        40         |
 |        Casa Inteligente        |             7              |               7                |                          8                           |         8         |          6          |        36         |
-|  Multiplatarforma audiovisual  |             7              |               5                |                          9                           |         8         |          6          |        35         |
+|  Multiplatarforma audiovisual  |             10             |               8                |                          9                           |         8         |          6          |        41         |
 
 
 
@@ -47,7 +47,7 @@
    - ##### Describir de una forma amplia los productos o servicios que ofreceréis determinando en qué consisten , qué necesidades satisfacen, si esa necesidad se encuentra en el mercado o no, sus características, las ventajas que aportan, los soportes tecnológicos en los que se apoyan, etc
 
      ```
-     Una inteligencia artificial que tenga la capacidad de detectar tu problema y darte solucion (capacidad para recetar, dar tratamiento...). Al comienzo del servicio se tratarian de enfermedades comunes y con poco coste de tratar pero que tambien son las mas usuales en la poblacion y harian una descongestion en el sistema sanitario para permitir mejorar en los aspectos de enfermedades mas importantes y dificiles de diagnosticar y tratar.
+     El servicio tratara de unir varias de las plataformas de servicios audiovisuales para tener una sola aplicacion con todo el contenido por un precio asequible. Esto dará una mayor atraccion por todo tipos de contenidos con un precio menor en el que se beneficiarian tanto los usuarios como todas las diferentes empresas que ofrecen estos servicios.
      ```
 
 3. #### Propuesta de Valor y Objetivos a perseguir.
@@ -55,13 +55,15 @@
    - ##### Elementos innovadores se incorporan en el producto u/o servicio y que características los va a diferenciar respecto a los ya existentes.
 
      ```
-     Ahora mismo no existen ningun sistema que haga esto. Es un servicio nuevo y que tendrá costes de i+d.
+     Ahora mismo no existen ningun sistema que haga esto. Es un servicio nuevo que requerirá negociaciones con las empresas que ofrecen este tipo de servicios. Con el fin de ofrecer algo totalmente nuevo y asequible para la mayoria de personas que ya consumen este tipo servicios.
      ```
 
    - ##### Objetivos que pretendemos alcanzar a corto y largo plazo.
 
      ```
-     Cuando hablamos de corto plazo se intentara alcanzar enfermedades comunes y con tratamiento fácil, probarlo en entornos mas "cerrados" y en servicios de sanidad privada para tener una escabilidad lenta pero horizontal. Cuando se aumente el tiempo de vida del servicio se podria llegar a la sanidad publica y ayudar a muchisima gente.
+     Cuando hablamos de corto plazo, se intentara tener a la mayoria de empresas en el proyecto y ajustar el precio lo maximo posible para el beneficio de ambos. Se empezaria vendiendo este servicio en paises con menos uso de estos para ver como funciona y si se tendria que cambiar algo antes de ofrecerlo a una clientela mayor.
+     
+Para el largo plazo, una vez probado el servicio, seria ofrecer diferentes paquetes dependiendo del contenido que se quiera siempre manteniendo la idea de ajustar los productos.
      ```
-
+     
      
